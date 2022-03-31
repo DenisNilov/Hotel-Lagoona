@@ -1,0 +1,248 @@
+@font-face {
+    font-family:'MullerBold';
+    src: url('../fonts/MullerBold.woff') format('woff');
+    src: url('../fonts/MullerBold.woff2')format('woff2');
+}
+@font-face {
+    font-family:'MullerLight';
+    src: url('../fonts/MullerLight.woff') format('woff');
+    src: url('../fonts/MullerLight.woff2') format('woff2');
+}  
+@font-face {
+    font-family:'MullerMedium';
+    src: url('../fonts/MullerMedium.woff') format('woff');
+    src: url('../fonts/MullerMedium.woff2') format('woff2');
+}
+@font-face {
+    font-family:'MullerRegular';
+    src: url('../fonts/MullerRegular.woff') format('woff');
+    src: url('../fonts/MullerRegular.woff2') format('woff2');
+}
+
+
+.body{
+background-color: #f1f1f1;
+}
+
+.header{
+width: 1170px;
+}
+
+.header-conteiner{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+align-items: center;
+padding-top: 30px;
+padding-bottom: 30px;
+}
+.logo{
+    margin-right: 30px;
+    height: 54px;
+    width: 261px;
+}
+.tel-number{
+    font-size: 22px;
+    font-family: 'MullerBold';
+    margin-right: 540px;
+    color: #666666;
+}
+.person-area{
+    height: 18px;
+    width: 146px;
+}
+.conteiner-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background-color:#ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 12px;
+
+}
+.conteiner-nav li{
+    display: inline;
+    color: #333333;
+    font-size: 16px;
+    font-family: 'MullerRegular';
+}
+
+.header-list-item{
+    margin-right: 52px;
+}
+.nav-list li:nth-child(1){
+    margin-left :20px;
+}
+.nav-list li:nth-child(6){
+    margin-right :0;
+}
+
+.input-search{
+    height: 47px;
+    width: 353px;
+    margin-left: 74px;
+    margin-right: 20px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    border-radius: 15px;
+    border: 1px solid #f1f1f1;
+    box-sizing: border-box; 
+    padding-left: 22px; 
+    font-family:'MullerRegular';
+    font-size: 14px;
+    background: url(../img/search.png),#f1f1f1;;
+    background-repeat: no-repeat;
+    background-position-x: 311px;
+    background-position-y: 11px;
+}
+.main{
+    width: 1170px; 
+    margin-top: 74px; 
+}
+.quick-booking{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 70px;
+    
+}
+.left-quick-booking, .right-quick-booking{
+    display: inline-block;
+    margin: 0;
+}
+.h2{
+    font-size: 40px;
+    font-family:'MullerRegular' ;
+    color: #333333;
+    margin-bottom: 32px;
+    margin-left: 45px;
+}
+.list-form{
+    display: flex;
+    flex-direction: column;
+    list-style-type:none;
+
+}
+.list-form-item{
+    display: block;
+    box-sizing: border-box; 
+    height: 70px;
+    width: 520px;
+    margin-bottom: 26px;
+    border-radius: 12px;
+    border: 1px solid #ffffff;
+    box-sizing: border-box; 
+    font-family:'MullerRegular';
+    font-size: 16px;
+    background-color: ffffff;
+    padding-left: 22px;
+}
+.rooms-lux{
+    height: 540px;
+    width: 595px;
+    background: url(../img/photo-room.png);
+}
+.rooms-lux-text{
+    font-size: 66px;
+    font-family:'MullerBold';
+    color: #ffffff;
+    align-items: flex-start;
+    margin-left: 50px;
+    padding-top: 268px;
+    line-height: 0.9;
+}
+.rooms-lux-text-price{
+    font-size: 35px;
+    color: rgba(255, 255, 255, 0.5);
+    font-family:'MullerRegular' ;
+    margin-left: 50px;
+    margin-top: 16px;
+}
+.rooms-lux-text-price span{
+    font-size: 16px;
+    color: #ffcc66;
+    padding-left: 40px;
+}
+
+.right-arrow{
+   background: url(../img/right-arrow.png);
+   background-repeat: no-repeat;
+   background-size: contain;
+   margin-left: 5px;
+}
+.find-room{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'MullerRegular';
+    
+}
+.btn-find{
+    border: 1px solid #cc9933;
+    padding: 30px;
+    background-color:#cc9933 ;
+    color: #ffffff;
+    font-family:'MullerBold' ;
+border-radius: 12px;
+margin: 0;
+}
+.find-room span{
+    
+    margin-right: 6px;
+    color: gray;
+    font-size: 16px;
+}
+.find-room-offers{
+    color:#cc9933 ;
+    margin-left: 30px;
+}
+.about{
+    margin-bottom: 70px;
+}
+.text-about{
+    font-size: 16px;
+    font-family: 'MullerRegular';
+    color: #666666;
+    line-height:1.7;
+    margin-left: 45px;
+}
+.services{
+    margin-bottom: 70px;  
+}
+.services-list{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-between;
+    align-items: center;
+}
+.services-item{
+    border: 1px solid #f1f1f1;
+    box-sizing: border-box;    
+    height: 326px;
+    width: 572px;
+    border-radius: 12px;
+    background-color: #ffffff;
+    display: inline;
+    margin-bottom: 15px;
+
+}
+.services-item img{
+    height: 165px;
+    width: 572px;
+}
+.services-card{
+    font-family:'MullerMedium';
+    font-size: 22px;
+    color: #cc9933;
+    padding-left: 47px;
+    padding-top: 37px;
+}
+.services-card p{
+font-size: 16px;
+font-family: 'MullerRegular';
+line-height:1.7;
+padding-top: 21px;
+color: #333333;
+}
