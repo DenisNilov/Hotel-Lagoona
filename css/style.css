@@ -1,7 +1,7 @@
 @font-face {
     font-family:'MullerBold';
     src: url('../fonts/MullerBold.woff') format('woff');
-    src: url('../fonts/MullerBold.woff2')format('woff2');
+    src: url('../fonts/MullerBold.woff2') format('woff2');
 }
 @font-face {
     font-family:'MullerLight';
@@ -230,7 +230,7 @@ padding-bottom: 30px;
 }
 .services-item img{
     height: 165px;
-    width: 572px;
+    width: 570px;
 }
 .services-card{
     font-family:'MullerMedium';
@@ -245,6 +245,9 @@ padding-bottom: 30px;
     line-height:1.7;
     padding-top: 21px;
     color: #333333;
+}
+.benefits{
+    margin-bottom: 44px;
 }
 .conteiner-benefits ul{
     display: flex;
@@ -306,4 +309,124 @@ padding-bottom: 30px;
 }
 .benefits-icon-8{
     background: url(../img/benefits-img8.png);
+}
+
+.accommodation{
+    margin-bottom: 50px;
+}
+
+.accommodation-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.accommodation-item{
+    display: block;
+    box-sizing: border-box; 
+    height: 441px;
+    width: 373px;
+    border-radius: 12px;
+    border: 1px solid #ffffff;
+    box-sizing: border-box; 
+    background-color: #ffffff;
+    margin-bottom: 20px;
+}
+.accommodation-item img{
+    width: 372px;
+    margin-bottom: 40px;
+}
+.conteiner-accommodation{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+    
+    
+}
+.accommodation-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 5px;
+}
+.accommodation-price{
+    font-size: 22px;
+    color: #0a0a0a;
+    font-family:'MullerBold';
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.accommodation-p{
+    font-size: 16px;
+    color: #757470;
+    font-family:'MullerRegular' ;
+    line-height: 1.7;
+    margin-left: 30px;
+    margin-bottom: 25px;
+}
+
+
+
+.accommodation-name-honel{
+    color: #070707;
+    }
+
+.accommodation-btn{
+    border-radius: 12px;
+    border: 1px solid #cc9933;
+    font-family:'MullerBold' ;
+    color: #cc9933;
+    padding: 14px 22px;
+    margin-left: 30px;
+   
+}
+
+.accommodation-star{
+    background: url(../img/star.png);
+    width: 15px;
+    height: 15px;
+    background-repeat: no-repeat;
+    margin-left: 6px;
+    list-style-type:none;
+}
+.accommodation-star-4{
+    background: url(../img/star-gray.png);
+    width: 15px;
+    height: 15px;
+    background-repeat: no-repeat;
+    margin-left: 6px;
+    list-style-type:none;
+}
+
+.hotel-9{
+    box-sizing: border-box; 
+    height: 441px;
+    width: 373px;
+    background: url(../img/accommodation-img9.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+.look-all{
+    padding-top: 368px;
+    padding-left: 22px;
+    color: #ffffff;
+    font-family: 'MullerRegular';
+    font-size: 22px;
+    
+}
+.right-arrow-card{
+    background: url(../img/right-arrow-white.png);
+    background-repeat: no-repeat;
+   background-size: contain;
+   margin-left: 10px;
+   height: 13px;
+   width: 15px;
+   display: inline-block;
+   
 }
