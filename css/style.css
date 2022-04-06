@@ -430,3 +430,171 @@ padding-bottom: 30px;
    display: inline-block;
    
 }
+.conteiner-contacts-writetous{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.contacts-h2{
+    font-size: 40px;
+    font-family:'MullerRegular' ;
+    color: #333333;
+    margin-bottom: 32px;
+    margin-left: 45px;
+}
+.writetous-h2{
+    font-size: 40px;
+    font-family:'MullerRegular' ;
+    color: #333333;
+    margin-bottom: 32px;
+    margin-left: 45px;
+}
+.contacts{
+    margin-left: 0;
+}
+.writetous{
+    margin-left: 0;
+}
+.contacts-card{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box; 
+    height: 619px;
+    width: 472px;
+    border-radius: 12px;
+    border: 1px solid #ffffff;
+    box-sizing: border-box; 
+    background-color: #ffffff;
+    font-family:'MullerRegular' ;
+    font-size: 16px;
+    list-style-type:none;
+    
+}
+.contacts-date{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items: flex-start;
+    padding-top: 32px;
+    margin: 0;
+    padding-bottom: 28px;
+    
+}
+.contacts-date:nth-child(1){
+    padding-top: 51px;
+}
+.contacts-date h6{
+    font-family: 'MullerBold';
+    font-size: 22px;
+    color: #666666;
+    margin: 0;
+    padding-left: 45px;
+    
+    
+}
+.contacts-date-adress{
+    margin: 0;
+    padding-left: 83px;
+    color: rgb(51, 51, 51);
+    line-height: 1.5;
+}
+
+.contacts-date-phone {
+    margin: 0;
+    padding-left: 45px;
+}
+
+.contacts-date-phone a{
+    color:#cc9933;
+    line-height: 1.5;
+}
+
+.contacts-date-email{
+    margin: 0;
+    padding-left: 88px;
+    color: #cfc2ba;
+}
+.contacts-date-email a{
+       
+    color: rgb(204, 153, 51);
+        line-height: 1.5;
+
+    }
+
+.contacts-date-grafic{
+    margin: 0;
+    padding-left: 80px;
+}
+.contacts-card hr{
+    
+    background-color: rgb(204, 204, 204);
+    width: 384px;
+}
+.build-route{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items: flex-start;
+    padding-top: 28px;
+    margin-left: 45px;
+}
+
+.build-route a{
+padding: 30px;
+color: #cc9933;
+text-align: center;
+border: 1px solid #cc9933;
+border-radius: 12px;
+font-family: 'MullerBold';
+}
+.writeous-box{
+    height:  455px;
+    width:345px ; 
+    
+    margin-top: 31px;
+    padding: 87px 0;
+    font-family: 'MullerRegular';
+    font-size: 16px;
+    list-style-type:none;
+}
+.writetous-name-tel-number{
+    display: block;
+    height: 70px;
+    width: 340px;
+    border-radius: 12px;
+    border: 1px solid #ffffff;
+    box-sizing: border-box;
+    background-color: ffffff;
+    margin-bottom: 26px;
+    font-family: 'MullerRegular';
+    font-size: 16px;
+    padding-left: 21px;
+}
+
+.writetous-message{
+    display: block;
+    height: 110px;
+    width: 340px;
+    border-radius: 12px;
+    border: 1px solid #ffffff;
+    box-sizing: border-box;
+    background-color: ffffff;
+    margin-bottom: 26px;
+    font-family: 'MullerRegular';
+    font-size: 16px;
+    padding-left: 21px;
+    padding-bottom: 56px;
+    margin-bottom: 55px;
+}
+.writetous-send{
+    padding: 30px;
+    color: #cc9933;
+    text-align: center;
+    border: 1px solid #cc9933;
+    border-radius: 12px;
+    font-family: 'MullerBold';
+    padding: 30px 130px;
+    color: #ffffff;
+    background-color: #cc9933;
+}
