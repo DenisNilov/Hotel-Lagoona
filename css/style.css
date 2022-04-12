@@ -25,7 +25,8 @@ background-color: #f1f1f1;
 }
 
 .header{
-width: 1170px;
+max-width: 1190px;
+padding: 0 10px;
 }
 
 .header-conteiner{
@@ -97,7 +98,8 @@ padding-bottom: 30px;
     background-position-y: 11px;
 }
 .main{
-    width: 1170px; 
+    max-width: 1190px;
+    padding: 0 10px; 
     margin-top: 74px; 
 }
 .quick-booking{
@@ -597,4 +599,95 @@ font-family: 'MullerBold';
     padding: 30px 130px;
     color: #ffffff;
     background-color: #cc9933;
+}
+.footer{
+    max-width: 1190px;
+    padding: 0 10px; 
+    margin-top: 22px;
+    margin-bottom: 52px;
+    background-color: #333333;
+    border: 1px solid #333333;
+    border-radius: 12px;
+}
+
+.conteiner-footer{
+height: 338px;
+width: inherit;
+font-family:'MullerRegular' ;
+
+color: #ffffff;
+background: url(../img/footer-sun.png);
+background-repeat: no-repeat;
+background-position-x: 700px;
+background-position-y: 110px;
+}
+
+.footer-list{
+    list-style-type: none;
+    padding-top: 50px;
+    display: flex;
+    justify-content:space-around;
+    
+}
+.footer-list li{
+    margin: 0;
+}
+
+.footer-copyrigth{
+line-height:1.8;    
+}
+.footer-info{
+    padding-top: 16px;
+    line-height:2.0;  
+}
+.footer-politic{
+    padding-top: 37px;
+color: #cc9933;
+}
+.footer-telnumber{
+    padding-top: 23px;
+    color: #cc9933;
+    line-height:1.5;  
+}
+.footer-telnumber a{
+    color: #cc9933;
+    line-height:1.5;  
+}
+
+.footer-email {
+    padding-top: 23px;  
+}
+.footer-email a{
+    color: #cc9933;
+    line-height:1.5;  
+}
+
+.footer-social{
+    list-style-type: none;
+}
+
+.footer-social a{
+background-repeat: no-repeat;
+background-size: contain;
+height: 25px;
+width: 25px;
+margin-bottom: 23px;
+display: block;
+
+
+}
+.trv{
+    background: url(../img/tripadvisor.png);
+}
+.twr{
+    background: url(../img/twitter.png);
+}
+.fcb{
+    background: url(../img/facebook.png);
+}
+.vk{
+    background: url(../img/vk.png);
+}
+.ggl{
+    background: url(../img/google-plus.png);
 }
