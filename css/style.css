@@ -31,7 +31,7 @@ background-color: #f1f1f1;
   }
 
 .header {
-  width: 1170px;
+  max-width: 1170px;
  }
 
 
@@ -42,6 +42,10 @@ background-color: #f1f1f1;
 align-items: center;
 padding-top: 30px;
 padding-bottom: 30px;
+}
+
+.menu{
+    display: none;
 }
 .logo{
     margin-right: 30px;
@@ -59,10 +63,6 @@ padding-bottom: 30px;
     width: 146px;
 }
 .conteiner-nav{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
     background-color:#ffffff;
     border: 1px solid #ffffff;
     border-radius: 12px;

@@ -1,0 +1,49 @@
+
+/* styles for browsers smaller than 480px; */
+@media screen and (max-device-width: 480px){
+   
+    /* a{border: 1px solid;
+      } */
+    .wrapper {
+        max-width: 480px;
+        overflow: hidden;
+        }
+    .header {
+            max-width: 480px;
+           }
+    .header-conteiner{
+            flex-direction: column;
+           }
+    .menu{
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            background:url(/img/menu.png);
+            background-size:contain;
+            position: relative;
+            right: 40px;
+
+        }
+
+    .logo{
+            margin-right: 0px;
+            height: 54px;
+            width: 261px;
+          }               
+    .tel-number{
+           margin-right: 0px;
+           margin-top: 20px;
+         }
+    .person-area{
+            margin-top: 20px;
+        }
+    
+    .nav-list li:nth-last-child(n+2){
+            display: none;
+        }   
+        .input-search{
+            margin-left: 35px;
+        }  
+
+
+}
