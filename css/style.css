@@ -149,6 +149,9 @@ background-color: #f1f1f1;
     height: 540px;
     width: 595px;
     background: url(../img/photo-room.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 12px;
 }
 .rooms-lux-text{
     font-size: 66px;
@@ -288,7 +291,8 @@ background-color: #f1f1f1;
 }
 .benefits-item div{
     height: 59px;
-    width: 63px;margin-top: 44px;
+    width: 63px;
+    margin-top: 44px;
     margin-left: 44px;
     margin-bottom: 27px;
     background-repeat: no-repeat;
@@ -337,8 +341,7 @@ background-color: #f1f1f1;
     height: 441px;
     width: 373px;
     border-radius: 12px;
-    border: 1px solid #ffffff;
-    box-sizing: border-box; 
+    border: 1px solid #ffffff; 
     background-color: #ffffff;
     margin-bottom: 20px;
 }
@@ -620,7 +623,6 @@ font-family: 'MullerBold';
 height: 338px;
 width: inherit;
 font-family:'MullerRegular' ;
-
 color: #ffffff;
 background: url(../img/footer-sun.png);
 background-repeat: no-repeat;

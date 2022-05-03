@@ -5,23 +5,32 @@
     /* a{border: 1px solid;
       } */
     .wrapper {
-        max-width: 480px;
+        max-width: 400px;
         overflow: hidden;
         }
     .header {
-            max-width: 480px;
+            max-width: 440px;
            }
+        .main{
+            max-width: 440px;
+        }
+        .footer{
+            max-width: 389px;
+        }
+
+
     .header-conteiner{
             flex-direction: column;
            }
+
     .menu{
             display: inline-block;
-            width: 50px;
-            height: 50px;
+            width: 40px;
+            height: 40px;
             background:url(/img/menu.png);
             background-size:contain;
             position: relative;
-            right: 75px;
+            right: 45px;
           }
 
     .logo{
@@ -40,16 +49,16 @@
     .nav-list li:nth-last-child(n+2){
             display: none;
         }   
-
+        
         .conteiner-nav{
             margin-left: 0px;
-            width: 450px;
+            width: 389px;
         
         }
         .input-search{
             margin-left: 13px;
-            width: 423px;
-            background-position-x: 382px;
+            width: 360px;
+            background-position-x: 322px;
         }  
 
         .quick-booking{
@@ -58,13 +67,108 @@
        .list-form-item{
         margin-left: 0;
         height: 70px;
-        width: 450px;
+        width: 389px;
         padding-left: 22px;
     }
     .list-form li{
        margin: 0;
     }
     
+    .btn-find{
+        padding: 25px;
+    }
+    .find-room span{
+        font-size: 14px;
+    }
+    
+    
+    .right-quick-booking{
+        margin-top: 50px;
+    }
 
+    .h2{
+        margin-left: 20px;
+    }
+    .rooms-lux{
+        width: 389px;
+        margin: 0;
+        background-size: auto;
+    }
+    .text-about{
+        width: 374px;
+        margin-left: 20px;
+    }
+    .services-list{
+        flex-direction: column;
+        align-content: flex-start;
+    }
+    .services-item{
+        width: 389px;
+      }
 
+    .services-item img {
+        width: 389px;
+    }
+
+    .services-card{
+        padding-top: 12px;
+    }
+    .services-card p{
+        line-height:1.6;
+    }
+
+    .conteiner-benefits ul{
+        justify-content: space-evenly;
+        width: 389px;
+    }
+    .benefits-item{
+        height: 170px;
+        width: 170px;
+          
+    }
+    .benefits-p{
+        font-size: 12px;
+        line-height: 1.2;
+        margin-left: 17px;
+    }
+    .benefits-item div{
+        margin-top: 22px;
+        margin-left: 44px;
+        margin-bottom: 20px;
+    } 
+    .accommodation-list{
+			flex-direction: column;
+			width: 389px;
+	}
+	.conteiner-contacts-writetous{
+    flex-direction: column;
+}
+.contacts-card{
+	width: 389px;
+	height: 676px;
+}
+.contacts-date-email{
+	width: 228px;
+}
+.writeous-box{
+	height:  582px;
+}
+.footer-list{
+	width: 389px;
+	flex-direction: column;
+}
+.conteiner-footer{
+	width: 389px;
+	height: 736px;
+	background-position-x: 55px;
+	background-position-y: 508px;
+	}
+	.footer-list li{
+    margin-left: 24px;
+}
+.footer-social{
+	display: flex;
+	flex-direction: row;
+	margin-top: 20px;
+}
 }
