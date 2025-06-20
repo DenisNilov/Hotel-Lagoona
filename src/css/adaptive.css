@@ -27,7 +27,7 @@
             display: inline-block;
             width: 40px;
             height: 40px;
-            background:url(/img/menu.png);
+            background:url(../img/menu.png);
             background-size:contain;
             position: relative;
             right: 45px;
